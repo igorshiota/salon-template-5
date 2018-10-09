@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Hair and Beauty</title>
+	<!-- below is Boostrap -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<!-- below is my own css and js -->
+	<link rel="stylesheet" href="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\css\styles.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+	<!-- below is for the carousel -->
+	<link rel="stylesheet" href="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\OwlCarousel2-2.3.4\dist\assets\owl.carousel.css">
+	<link rel="stylesheet" href="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\OwlCarousel2-2.3.4\dist\assets\owl.theme.default.min.css">
+</head>
+<body>
+
+	<!-- Headers -->
+	<header>
+		<div class="col-header"><span><p>info@hairandbeauty.com</p><p>1-888-8888</p></span></div>
+		<div class="col-header"><img src="img/logo-red-1.png" alt="Black Amber logo" class="logo"></div>
+		<div class="col-header"><span><p>Opening Hours</p><p>Mon-Fri 9am to 6pm</p><span></div>
+	</header>
+
+	<header>
+		<nav class="topnav" id="myTopnav">
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#team">Meet the Team</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#services">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#" class="fa fa-facebook"></a></li>
+				<li><a href="#" class="fa fa-twitter"></a></li>
+				<li><a href="#" class="fa fa-instagram"></a></li>
+				<li><a href="#" class="fa fa-envelope"></a></li>	
+			</ul>
+			<nav class="mobilenav">
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+			</nav>
+		</nav>
+	</header>
+	<!-- End Headers -->
+
+	<!-- Main Image -->
+	<section class="home-hero parallax--bg">
+		<div class="container">
+			<h1 class="title">Hair & Beauty
+				<span>Templeogue | Rathfarnham | Gorey | Naas | DunDrum</span>
+			</h1>
+			<a href="#portfolio" class="button button-accent">Book Now</a>
+			<a href="#portfolio" class="button button-accent">Call Us</a>
+		</div>
+	</section>
+	<!-- End Main Image -->
+
+	<!-- Two Col -->
+   	<section class="twocol"><a name="twocol"></a> 
+		<!-- portfolio item 01 -->
+		<figure class="twocol-item">
+			<img src="img/men.jpg" alt="twocol item">
+			<figcaption class="twocol-description">
+				<h1>For Men</h1>
+				<p>Project Title</p>
+				<a href="" class="button button-accent button-small">Project Details</a>
+			</figcaption>
+		</figure>
+		<!-- portfolio item 02 -->
+		<figure class="twocol-item">
+			<img src="img/women.jpg" alt="twocol item">
+			<figcaption class="twocol-description">
+				<p>Project Title</p>
+				<a href="" class="button button-accent button-small">Project Details</a>
+			</figcaption>
+		</figure>
+	</section>
+	<!-- End Two Col -->
+
+		<!-- About Us -->
+		<div class="container">
+			<section class="portfolio"><a name="about"></a> 
+				<h4>Dublin | Since 2018</h4>
+				<h1>A Cultured Hair & Beauty Salon Situated In The Heart Of Paddington</h1>
+				<p>With over 20 years of experience, we recognize the importance of internationalization for company growth. Approximately 25% of our clients have an international presence.</p>
+				<p>Menz Salon is a classical male grooming and traditional Barber shop. Providing a comprehensive menu of traditional and contemporary services towards men’s hair, beards, hot towel shaves, facials, and body treatments. A classic Barber Shop offering grooming services and products in the true sense</p>
+				<img src="img/signature-1.png" alt="signature">	
+			</section>
+		</div>
+		<!-- End About Us -->
+
+		<!-- Our Services -->
+		<div class="container" style="background: url(img/bgw.jpg); padding: 1.5em 0;">
+			<section class="portfolio"><a name="services"></a> 
+				<div class="col-services"><h1>Our Services</h1><p>What do we offer?</p><a href="#portfolio" class="button button-accent">Book Now</a></div>
+				<div class="col-services"><img src="img/icon-service1.png" alt=""><p>Hair</p><p>The latest trends, the best experts, an impecable customer service to make you feel even more amazing!</p></div>
+				<div class="col-services"><img src="img/icon-service2.png" alt=""><p>Beauty</p><p>The latest trends, the best experts, an impecable customer service to make you feel even more amazing!</p></div>
+			</section>
+		</div>
+		<!-- End Our Services -->
+
+		<!-- Meet the Team -->
+		<div class="container">
+			<section class="portfolio">
+				<h1>Meet The Team</h1>
+				<div class="owl-carousel owl-theme">
+			        <div class="col-md-12">
+			            <div class="our-team">
+			                <div class="pic">
+			                    <img src="img/team-1.jpg">
+			                    <ul class="social">
+			                    	<p class="team-p">This is a profile bio. This is supposed to be a couple of paragraphs about the stylist, their expertises, etc. Not very long, 3 or 4 lines should be sufficient.</p>		                    
+			                    </ul>
+			                </div>
+			                <div class="team-content">
+			                    <h3 class="title">Williamson</h3>
+			                    <span class="post">Senior Stylist</span>
+			                </div>
+			            </div>
+			        </div>
+			        <div class="col-md-12">
+			            <div class="our-team">
+			                <div class="pic">
+			                    <img src="img/team-2.jpg">
+			                    <ul class="social">
+			                    	<p class="team-p">This is a profile bio. This is supposed to be a couple of paragraphs about the stylist, their expertises, etc. Not very long, 3 or 4 lines should be sufficient.</p>		                       
+			                    </ul>
+			                </div>
+			                <div class="team-content">
+			                    <h3 class="title">Kristiana</h3>
+			                    <span class="post">Make Up Artist</span>
+			                </div>
+			            </div>
+			        </div>
+			        <div class="col-md-12">
+			            <div class="our-team">
+			                <div class="pic">
+			                    <img src="img/team-3.jpg">
+			                    <ul class="social">
+			                    	<p class="team-p">This is a profile bio. This is supposed to be a couple of paragraphs about the stylist, their expertises, etc. Not very long, 3 or 4 lines should be sufficient.</p>
+			                    </ul>
+			                </div>
+			                <div class="team-content">
+			                    <h3 class="title">Dave</h3>
+			                    <span class="post">Colour Specialist</span>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+		    </section>
+		</div>
+		<!-- End Meet the Team -->
+
+		<!-- Prices -->
+		<div class="container">
+			<section class="portfolio"><a name="services"></a> 
+					<h1>Services & Prices</h1>
+    				<div id="accordion">
+					  <div class="card">
+					    <div class="card-header" id="headingOne">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+					          Hair
+					        </button>
+					      </h5>
+					    </div>
+
+					    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+					      <div class="card-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					      </div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <div class="card-header" id="headingTwo">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					          Beauty
+					        </button>
+					      </h5>
+					    </div>
+					    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					      <div class="card-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					      </div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <div class="card-header" id="headingThree">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					          Nails
+					        </button>
+					      </h5>
+					    </div>
+					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					      <div class="card-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					      </div>
+					    </div>
+					  </div>
+					</div>
+			</section>
+		</div>
+		<!-- End Prices -->
+
+		<!-- Before and After -->
+		<div class="container">
+			<section class="portfolio"><a name="services"></a> 
+				<h1>Client's Before & After</h1>
+
+				<div class="col-services">
+					<figure class="cd-image-container">
+					   <img src="img/before-1.png" alt="Original Image">
+					   <span class="cd-image-label" data-type="original">Original</span>
+					  
+					   <div class="cd-resize-img"> <!-- the resizable image on top -->
+					      <img src="img/after-1.png" alt="Modified Image">
+					      <span class="cd-image-label" data-type="modified">Modified</span>
+					   </div>
+					  
+					   <span class="cd-handle"></span> <!-- slider handle -->
+					</figure> <!-- cd-image-container -->
+				</div>
+
+				<div class="col-services">
+					<figure class="cd-image-container">
+					   <img src="img/before-1.png" alt="Original Image">
+					   <span class="cd-image-label" data-type="original">Original</span>
+					  
+					   <div class="cd-resize-img"> <!-- the resizable image on top -->
+					      <img src="img/after-1.png" alt="Modified Image">
+					      <span class="cd-image-label" data-type="modified">Modified</span>
+					   </div>
+					  
+					   <span class="cd-handle"></span> <!-- slider handle -->
+					</figure> <!-- cd-image-container -->
+				</div>
+
+				<div class="col-services">
+					<figure class="cd-image-container">
+					   <img src="img/before-1.png" alt="Original Image">
+					   <span class="cd-image-label" data-type="original">Original</span>
+					  
+					   <div class="cd-resize-img"> <!-- the resizable image on top -->
+					      <img src="img/after-1.png" alt="Modified Image">
+					      <span class="cd-image-label" data-type="modified">Modified</span>
+					   </div>
+					  
+					   <span class="cd-handle"></span> <!-- slider handle -->
+					</figure> <!-- cd-image-container -->
+				</div>
+			</section>
+		</div>
+		<!-- End Before and After -->
+
+	<!-- Gallery -->
+	<section class="portfolio"><a name="portfolio"></a> 
+		<h1>Gallery</h1>
+		<!-- portfolio item 01 -->
+		<figure class="port-item">
+			<img src="img/gallery-1.jpg" alt="portfolio item">
+			<figcaption class="port-description">
+				<p>Project Title</p>
+				<a href="" class="button button-accent button-small">Project Details</a>
+			</figcaption>
+		</figure>
+
+		<!-- portfolio item 02 -->
+		<figure class="port-item">
+			<img src="img/gallery-2.jpg" alt="portfolio item">
+			<figcaption class="port-description">
+				<p>Project Title</p>
+				<a href="" class="button button-accent button-small">Project Details</a>
+			</figcaption>
+		</figure>
+
+		<!-- portfolio item 03 -->
+		<figure class="port-item">
+			<img src="img/gallery-3.jpg" alt="portfolio item">
+			<figcaption class="port-description">
+				<p>Project Title</p>
+				<a href="" class="button button-accent button-small">Project Details</a>
+			</figcaption>
+		</figure>
+
+		<!-- portfolio item 04 -->
+		<figure class="port-item">
+			<img src="img/gallery-4.jpg" alt="portfolio item">
+			<figcaption class="port-description">
+				<p>Project Title</p>
+				<a href="" class="button button-accent button-small">Project Details</a>
+			</figcaption>
+		</figure>
+
+		<!-- portfolio item 05 -->
+		<figure class="port-item">
+			<img src="img/gallery-5.jpg" alt="portfolio item">
+			<figcaption class="port-description">
+				<p>Project Title</p>
+				<a href="" class="button button-accent button-small">Project Details</a>
+			</figcaption>
+		</figure>
+
+		<!-- portfolio item 06 -->
+		<figure class="port-item">
+			<img src="img/gallery-6.jpg" alt="portfolio item">
+			<figcaption class="port-description">
+				<p>Project Title</p>
+				<a href="" class="button button-accent button-small">Project Details</a>
+			</figcaption>
+		</figure>
+	</section>
+	<!-- End Gallery -->
+
+	<!-- Contact -->
+	<section class="cta"><a name="contact"></a> 
+		<div class="container">
+			<h1 class="title title-cta">Like what you see?
+				<span>Then what are you waiting for?</span>
+			</h1>
+				<form action="">
+					<label for="name"></label>
+					<input type="text" placeholder="Your name"><br>
+					<label for="email"></label>
+					<input type="text" placeholder="Your email"><br>
+					<label for="phone"></label>
+					<input type="text" placeholder="Your phone"><br>
+					<label for="message"></label><br>
+					<textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+				</form>
+			<a href="" class="button button-dark">Send Message!</a> <strong>or</strong>
+			<a href="" class="button button-dark">Call Us Now!</a>
+		</div>
+	</section>
+	<!-- End Contact -->
+
+	<footer>
+		<div class="container">
+			<div class="col-footer">
+				<img src="img/logo-red-1.png" alt="Black Amber logo" class="logo">
+			</div>
+			<div class="col-footer">
+				<ul class="unstyled-list">
+					<li>About</li>
+					<li>Privacy Policy</li>
+					<li>Our Services</li>
+					<li>Our Work</li>
+				</ul>
+			</div>
+			<div class="col-footer">
+				<ul class="unstyled-list">
+					<li></li>
+					<li>Web Development</li>
+					<li>Digital Marketing</li>
+					<li>Content</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Parallax -->
+	<script src="js/parallax.js"></script>
+
+	<!-- Carousel -->
+	<script src="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\OwlCarousel2-2.3.4\docs\assets\vendors\jquery.min.js"></script>
+	<script src="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
+	<script type="text/javascript">
+		$('.owl-carousel').owlCarousel({
+		    loop:true,
+		    margin:10,
+		    nav:true,
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:3
+		        },
+		        1000:{
+		            items:5
+		        }
+		    }
+		})
+	</script>
+
+	<script>
+		function myFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+		}
+	</script>
+
+	<!-- Before and After -->
+	<script src="js/comparison.js"></script>
+
+	<!-- Accordions -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
