@@ -10,7 +10,7 @@
 	
 	<!-- below is my own css and js -->
 	<link rel="stylesheet" href="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\css\styles.css">
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 
 	<!-- below is for the carousel -->
 	<link rel="stylesheet" href="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\OwlCarousel2-2.3.4\dist\assets\owl.carousel.css">
@@ -22,7 +22,7 @@
 	<header>
 		<div class="col-header"><span><p>info@hairandbeauty.com</p><p>1-888-8888</p></span></div>
 		<div class="col-header"><img src="img/logo-red-1.png" alt="Black Amber logo" class="logo"></div>
-		<div class="col-header"><span><p>Opening Hours</p><p>Mon-Fri 9am to 6pm</p><span></div>
+		<div class="col-header"><span><p>Opening Hours</p><p>Mon-Fri 9am to 6pm</p></span></div>
 	</header>
 
 	<header>
@@ -31,7 +31,7 @@
 				<li><a href="#about">About</a></li>
 				<li><a href="#team">Meet the Team</a></li>
 				<li><a href="#services">Services</a></li>
-				<li><a href="#services">Gallery</a></li>
+				<li><a href="#gallery">Gallery</a></li>
 				<li><a href="#contact">Contact</a></li>
 				<li><a href="#" class="fa fa-facebook"></a></li>
 				<li><a href="#" class="fa fa-twitter"></a></li>
@@ -58,13 +58,13 @@
 	<!-- End Main Image -->
 
 	<!-- Two Col -->
-   	<section class="twocol"><a name="twocol"></a> 
+   	<section class="twocol">
 		<!-- portfolio item 01 -->
 		<figure class="twocol-item">
 			<img src="img/men.jpg" alt="twocol item">
 			<figcaption class="twocol-description">
 				<h1>For Men</h1>
-				<p>Project Title</p>
+				<p>See Our Services</p>
 				<a href="" class="button button-accent button-small">Project Details</a>
 			</figcaption>
 		</figure>
@@ -72,7 +72,8 @@
 		<figure class="twocol-item">
 			<img src="img/women.jpg" alt="twocol item">
 			<figcaption class="twocol-description">
-				<p>Project Title</p>
+				<h1>For Women</h1>
+				<p>See Our Services</p>
 				<a href="" class="button button-accent button-small">Project Details</a>
 			</figcaption>
 		</figure>
@@ -81,8 +82,8 @@
 
 		<!-- About Us -->
 		<div class="container">
-			<section class="portfolio"><a name="about"></a> 
-				<h4>Dublin | Since 2018</h4>
+			<section class="portfolio">
+				<h4 id="about">Dublin | Since 2018</h4>
 				<h1>A Cultured Hair & Beauty Salon Situated In The Heart Of Paddington</h1>
 				<p>With over 20 years of experience, we recognize the importance of internationalization for company growth. Approximately 25% of our clients have an international presence.</p>
 				<p>Menz Salon is a classical male grooming and traditional Barber shop. Providing a comprehensive menu of traditional and contemporary services towards men’s hair, beards, hot towel shaves, facials, and body treatments. A classic Barber Shop offering grooming services and products in the true sense</p>
@@ -93,8 +94,8 @@
 
 		<!-- Our Services -->
 		<div class="container" style="background: url(img/bgw.jpg); padding: 1.5em 0;">
-			<section class="portfolio"><a name="services"></a> 
-				<div class="col-services"><h1>Our Services</h1><p>What do we offer?</p><a href="#portfolio" class="button button-accent">Book Now</a></div>
+			<section class="portfolio">
+				<div class="col-services"><h1 id="services">Our Services</h1><p>What do we offer?</p><a href="#portfolio" class="button button-accent">Book Now</a></div>
 				<div class="col-services"><img src="img/icon-service1.png" alt=""><p>Hair</p><p>The latest trends, the best experts, an impecable customer service to make you feel even more amazing!</p></div>
 				<div class="col-services"><img src="img/icon-service2.png" alt=""><p>Beauty</p><p>The latest trends, the best experts, an impecable customer service to make you feel even more amazing!</p></div>
 			</section>
@@ -104,11 +105,11 @@
 		<!-- Meet the Team -->
 		<div class="container">
 			<section class="portfolio">
-				<h1>Meet The Team</h1>
+				<h1 id="team">Meet The Team</h1>
 				<div class="owl-carousel owl-theme">			    
 		            <div class="our-team">
 		                <div class="pic">
-		                    <img src="img/team-1.jpg">
+		                    <img src="img/team-1.jpg" alt="team-1">
 		                    <ul class="social">
 		                    	<p class="team-p">This is a profile bio. This is supposed to be a couple of paragraphs about the stylist, their expertises, etc. Not very long, 3 or 4 lines should be sufficient.</p>		                    
 		                    </ul>
@@ -120,7 +121,7 @@
 		            </div>		        			    
 		            <div class="our-team">
 		                <div class="pic">
-		                    <img src="img/team-2.jpg">
+		                    <img src="img/team-2.jpg" alt="team-2">
 		                    <ul class="social">
 		                    	<p class="team-p">This is a profile bio. This is supposed to be a couple of paragraphs about the stylist, their expertises, etc. Not very long, 3 or 4 lines should be sufficient.</p>		                       
 		                    </ul>
@@ -132,7 +133,7 @@
 		            </div>			     		
 		            <div class="our-team">
 		                <div class="pic">
-		                    <img src="img/team-3.jpg">
+		                    <img src="img/team-3.jpg" alt="team-3">
 		                    <ul class="social">
 		                    	<p class="team-p">This is a profile bio. This is supposed to be a couple of paragraphs about the stylist, their expertises, etc. Not very long, 3 or 4 lines should be sufficient.</p>
 		                    </ul>
@@ -149,8 +150,8 @@
 
 		<!-- Prices -->
 		<div class="container">
-			<section class="portfolio"><a name="services"></a> 
-					<h1>Services & Prices</h1>
+			<section class="portfolio">
+					<h1 id="prices">Services & Prices</h1>
     				<div id="accordion">
 					  <div class="card">
 					    <div class="card-header" id="headingOne">
@@ -202,7 +203,7 @@
 
 		<!-- Before and After -->
 		<div class="container">
-			<section class="portfolio"><a name="services"></a> 
+			<section class="portfolio">
 				<h1>Client's Before & After</h1>
 
 				<div class="col-services">
@@ -251,8 +252,8 @@
 		<!-- End Before and After -->
 
 	<!-- Gallery -->
-	<section class="portfolio"><a name="portfolio"></a> 
-		<h1>Gallery</h1>
+	<section class="portfolio">
+		<h1 id="gallery">Gallery</h1>
 		<!-- portfolio item 01 -->
 		<figure class="port-item">
 			<img src="img/gallery-1.jpg" alt="portfolio item">
@@ -310,23 +311,19 @@
 	<!-- End Gallery -->
 
 	<!-- Contact -->
-	<section class="cta"><a name="contact"></a> 
+	<section class="cta">
 		<div class="container">
-			<h1 class="title title-cta">Like what you see?
+			<h1 class="title title-cta" id="contact">Like what you see?
 				<span>Then what are you waiting for?</span>
 			</h1>
-				<form action="">
-					<label for="name"></label>
-					<input type="text" placeholder="Your name"><br>
-					<label for="email"></label>
-					<input type="text" placeholder="Your email"><br>
-					<label for="phone"></label>
-					<input type="text" placeholder="Your phone"><br>
-					<label for="message"></label><br>
-					<textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+				<form action="#">					
+					<input type="text" placeholder="Your name"><br>					
+					<input type="text" placeholder="Your email"><br>				
+					<input type="text" placeholder="Your phone"><br>					
+					<textarea name="#" id="#" cols="30" rows="10" placeholder="Your message"></textarea>
 				</form>
-			<a href="" class="button button-dark">Send Message!</a> <strong>or</strong>
-			<a href="" class="button button-dark">Call Us Now!</a>
+			<a href="#" class="button button-dark">Send Message!</a> <strong>or</strong>
+			<a href="#" class="button button-dark">Call Us Now!</a>
 		</div>
 	</section>
 	<!-- End Contact -->
@@ -362,7 +359,7 @@
 	<!-- Carousel -->
 	<script src="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\OwlCarousel2-2.3.4\docs\assets\vendors\jquery.min.js"></script>
 	<script src="C:\Users\Igor\Desktop\Igor\Java\MyProjects\Portfolio Revamp - PHP - Website 2 (Salon Template 5)\OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
-	<script type="text/javascript">
+	<script>
 		$('.owl-carousel').owlCarousel({
 		    loop:true,
 		    margin:10,
